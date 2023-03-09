@@ -1,0 +1,35 @@
+body {
+    background: yellow;
+}
+
+h1 {
+    color: #E097CA;
+    background: yellow;
+    /* text-align: right;*/
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.important {
+    color: blue;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.numberlist {
+    width: 74%;
+    border: 1px solid purple;
+    background: red;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .numberlist {
+        width: 100%;
+    }
+}
+
+
